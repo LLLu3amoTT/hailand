@@ -1,0 +1,94 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:active{
+    color: white;
+}
+
+.menu {
+    width: 100%;
+    height: 70px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    background-color: #87CEFA;
+    display: flex;
+}
+
+.img_icon {
+    height: 75px;
+    width: 75px;
+    padding: 0px 10px 0px 10px;
+}
+
+.left_menu {
+    position: absolute;
+    right: 15px;
+    display: flex;
+}
+
+.left_menu__text {
+    font-family: 'Jura', sans-serif;
+    font-size: 35px;
+    margin: 15px;
+    margin-right: -50px;
+    width: 250px;
+    text-align: center;
+}
+
+#lmt_end {
+    line-height: 0.8;
+    margin-right: 40px;
+    margin-top: 5px;
+}
+
+.main {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/main.png")  no-repeat;
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    background-position: center bottom;
+    background-size: 2000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 35px;
+}
+
+.playnow {
+    font-family: 'Jura', sans-serif;
+    width: 356px;
+    height: 73px;
+    border-radius: 25px;
+    background-color: #87d7fa8c;
+    border: none;
+    font-size: 35px;
+}
+
+.playnow:active {
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+.end {
+    background-color: #6D9BB8;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+}
+
+.end_icon {
+    color: white;
+    margin: 10px;
+    font-size: 50px;
+}
