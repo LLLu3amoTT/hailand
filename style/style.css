@@ -45,15 +45,13 @@ a:active{
     font-family: 'Jura', sans-serif;
     font-size: 35px;
     margin: 15px;
-    margin-right: -50px;
-    width: 250px;
     text-align: center;
 }
 
 #lmt_end {
     line-height: 0.8;
-    margin-right: 40px;
     margin-top: 5px;
+    width: 250px;
 }
 
 .main {
@@ -106,7 +104,7 @@ a:active{
 
 
 
-@media only screen and (min-width: 240px) and (max-width: 1024px){
+@media only screen and (min-width: 320px) and (max-width: 1024px){
     .left_menu {
         display: none;
     }
@@ -117,13 +115,16 @@ a:active{
     .mlmenu {
         display: flex;
         width: 100%;
-        height: 100%;
+        height: 55px;
         background-color: #87CEFA;
+        justify-content: center;
     }
     .left_menu__text {
         font-size: 25px;
         position: relative;
         color: white;
+        margin: 15px 55px 0px 5px;
+        margin-left: 90px;
     }
     #lmt_end {
         margin-left: -20px;
