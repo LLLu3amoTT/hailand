@@ -7,6 +7,10 @@
     width: 0;
 }
 
+p {
+    color: black;
+}
+
 a{
     text-decoration: none;
     color:black;
@@ -55,17 +59,24 @@ a:active{
 }
 
 .main {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/main.png")  no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://cdn.discordapp.com/attachments/985148568513949787/987425890625527859/unknown.png")  no-repeat;
     width: 90%;
     height: 555px;
     margin: auto;
-    margin-top: 55px;
+    margin-top: 25px;
     background-position: center bottom;
-    background-size: 2000px;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     border: none;
+    border-radius: 35px;
+    margin-bottom: 15px;
+}
+
+.mimg {
+    height: 500px;
+    margin: auto;
     border-radius: 35px;
 }
 
@@ -77,6 +88,7 @@ a:active{
     background-color: #87d7fa8c;
     border: none;
     font-size: 35px;
+    text-align: center;
 }
 
 .playnow:active {
@@ -93,14 +105,62 @@ a:active{
     bottom: 0px;
     width: 100%;
     margin-top: 25px;
-    position: absolute;
+    position: relative;
+    bottom: 0px;
 }
 
 .end_icon {
     color: white;
     margin: 10px;
-    font-size: 50px;
+    font-size: 35px;
 }
+
+.report {
+    height: 80px;
+    width: 80px;
+    background-color: #87CEFA;
+    border-radius: 100px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    text-align: center;
+    color: white;
+    font-size: 52px;
+}
+
+.report-hide {
+    display: none;
+    height: 400px;
+    width: 320px;
+}
+
+.report-hide::-webkit-scrollbar {
+    width: 0;
+}
+
+.report:hover > .rhide {
+    display: none;
+}
+
+.report:hover > .report-hide {
+    display: flex;
+}
+
+.report:hover {
+    display: flex;
+    margin-right: 0px;
+    height: 410px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+.report-form {
+    margin-left: 10px;
+}
+
+
+
+
 
 
 
@@ -139,7 +199,7 @@ a:active{
     .playnow {
         width: 100%;
     }
-    .mtext {
+    .ptext {
         margin-left: 50px;
         margin-right: 50px;
     }
