@@ -102,10 +102,9 @@ a:active{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     text-align: center;
-    bottom: 0px;
     width: 100%;
     margin-top: 25px;
-    position: relative;
+    position: absolute;
     bottom: 0px;
 }
 
